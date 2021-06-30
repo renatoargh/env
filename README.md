@@ -1,8 +1,9 @@
+# Same as humanwhocodes/env except there is `.requireMatch` function to validate your env variable against a regex
+
+
 # Env utility
 
-by [Nicholas C. Zakas](https://humanwhocodes.com)
-
-If you find this useful, please consider supporting my work with a [donation](https://humanwhocodes.com/donate).
+by [Nicholas C. Zakas](https://humanwhocodes.com) and Renato Gama
 
 ## Description
 
@@ -33,16 +34,6 @@ import { Env } from "@humanwhocodes/env";
 ```
 
 By default, an `Env` instance will read from `process.env`.
-
-### Deno
-
-Import into your Deno project:
-
-```js
-import { Env } from "https://cdn.skypack.dev/@humanwhocodes/env?dts";
-```
-
-By default, an `Env` instance will read from `Deno.env`.
 
 ### Browser
 
