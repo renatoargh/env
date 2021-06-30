@@ -16,21 +16,21 @@ A utility for verifying that environment variables are present in Node.js and De
 Install using [npm][npm] or [yarn][yarn]:
 
 ```
-npm install @humanwhocodes/env --save
+npm install @renatoargh/env --save
 
 # or
 
-yarn add @humanwhocodes/env
+yarn add @renatoargh/env
 ```
 
 Import into your Node.js project:
 
 ```js
 // CommonJS
-const { Env } = require("@humanwhocodes/env");
+const { Env } = require("@renatoargh/env");
 
 // ESM
-import { Env } from "@humanwhocodes/env";
+import { Env } from "@renatoargh/env";
 ```
 
 By default, an `Env` instance will read from `process.env`.
